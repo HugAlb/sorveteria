@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate": "plop --plopfile generators/plopfile.js"
   },
   "dependencies": {
     "next": "15.0.3",
+    "plop": "^4.0.1",
     "pnpm": "^9.14.4",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
